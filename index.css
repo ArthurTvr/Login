@@ -3,10 +3,12 @@
 }
 
 body{
+    font-size: 100%;
     display: flex;
     width: 100vw;
     height: 100vh;
 }
+
 form{
     display: flex;
     align-items: center;
@@ -77,7 +79,6 @@ form{
     margin: 10px;
 }
 
-
 .enter-button{
     background-color: gray;
     color: white;
@@ -127,9 +128,7 @@ form{
 #remember{
     margin: 20px;
 }
-
-
-
+/* ----------------------------------------- */
 @media(max-width:820px){
     .right-container{
         background-image: url("./img/background.png");
